@@ -23,35 +23,35 @@ Partial Class FrmPago
   <System.Diagnostics.DebuggerStepThrough()> _
   Private Sub InitializeComponent()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
-        Me.GroupBox3 = New System.Windows.Forms.GroupBox()
-        Me.GroupBox4 = New System.Windows.Forms.GroupBox()
-        Me.Label1 = New System.Windows.Forms.Label()
-        Me.GroupBox2 = New System.Windows.Forms.GroupBox()
-        Me.GroupBox5 = New System.Windows.Forms.GroupBox()
-        Me.Label2 = New System.Windows.Forms.Label()
-        Me.Label3 = New System.Windows.Forms.Label()
-        Me.Label4 = New System.Windows.Forms.Label()
-        Me.txtDni = New System.Windows.Forms.TextBox()
-        Me.txtNombre = New System.Windows.Forms.TextBox()
         Me.txtApellido = New System.Windows.Forms.TextBox()
-        Me.txtSueldo = New System.Windows.Forms.TextBox()
-        Me.rbAfp = New System.Windows.Forms.RadioButton()
-        Me.rbOnp = New System.Windows.Forms.RadioButton()
-        Me.chJudicial = New System.Windows.Forms.CheckBox()
-        Me.chPrestamo = New System.Windows.Forms.CheckBox()
-        Me.chalimento = New System.Windows.Forms.CheckBox()
-        Me.Label5 = New System.Windows.Forms.Label()
-        Me.txtDafiliacion = New System.Windows.Forms.TextBox()
-        Me.Label6 = New System.Windows.Forms.Label()
-        Me.Label7 = New System.Windows.Forms.Label()
-        Me.Label8 = New System.Windows.Forms.Label()
-        Me.txtDjudicial = New System.Windows.Forms.TextBox()
-        Me.txtDprestamo = New System.Windows.Forms.TextBox()
+        Me.txtNombre = New System.Windows.Forms.TextBox()
+        Me.txtDni = New System.Windows.Forms.TextBox()
+        Me.Label3 = New System.Windows.Forms.Label()
+        Me.Label2 = New System.Windows.Forms.Label()
+        Me.Label1 = New System.Windows.Forms.Label()
+        Me.GroupBox3 = New System.Windows.Forms.GroupBox()
         Me.txtDalimento = New System.Windows.Forms.TextBox()
-        Me.Label9 = New System.Windows.Forms.Label()
-        Me.Label10 = New System.Windows.Forms.Label()
-        Me.txtTdescuento = New System.Windows.Forms.TextBox()
+        Me.txtDprestamo = New System.Windows.Forms.TextBox()
+        Me.txtDjudicial = New System.Windows.Forms.TextBox()
+        Me.Label8 = New System.Windows.Forms.Label()
+        Me.Label7 = New System.Windows.Forms.Label()
+        Me.Label6 = New System.Windows.Forms.Label()
+        Me.txtDafiliacion = New System.Windows.Forms.TextBox()
+        Me.Label5 = New System.Windows.Forms.Label()
+        Me.GroupBox4 = New System.Windows.Forms.GroupBox()
         Me.txtSneto = New System.Windows.Forms.TextBox()
+        Me.txtTdescuento = New System.Windows.Forms.TextBox()
+        Me.Label10 = New System.Windows.Forms.Label()
+        Me.Label9 = New System.Windows.Forms.Label()
+        Me.GroupBox2 = New System.Windows.Forms.GroupBox()
+        Me.rbOnp = New System.Windows.Forms.RadioButton()
+        Me.rbAfp = New System.Windows.Forms.RadioButton()
+        Me.GroupBox5 = New System.Windows.Forms.GroupBox()
+        Me.chalimento = New System.Windows.Forms.CheckBox()
+        Me.chPrestamo = New System.Windows.Forms.CheckBox()
+        Me.chJudicial = New System.Windows.Forms.CheckBox()
+        Me.Label4 = New System.Windows.Forms.Label()
+        Me.txtSueldo = New System.Windows.Forms.TextBox()
         Me.btnNuevo = New System.Windows.Forms.Button()
         Me.BtnCalcular = New System.Windows.Forms.Button()
         Me.BtnSalir = New System.Windows.Forms.Button()
@@ -71,85 +71,36 @@ Partial Class FrmPago
         Me.GroupBox1.Controls.Add(Me.Label2)
         Me.GroupBox1.Controls.Add(Me.Label1)
         Me.GroupBox1.Font = New System.Drawing.Font("Montserrat SemiBold", 13.8!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.GroupBox1.Location = New System.Drawing.Point(78, 55)
+        Me.GroupBox1.Location = New System.Drawing.Point(78, 12)
         Me.GroupBox1.Name = "GroupBox1"
         Me.GroupBox1.Size = New System.Drawing.Size(586, 129)
         Me.GroupBox1.TabIndex = 0
         Me.GroupBox1.TabStop = False
         Me.GroupBox1.Text = "Datos del Trabajador"
         '
-        'GroupBox3
+        'txtApellido
         '
-        Me.GroupBox3.Controls.Add(Me.txtDalimento)
-        Me.GroupBox3.Controls.Add(Me.txtDprestamo)
-        Me.GroupBox3.Controls.Add(Me.txtDjudicial)
-        Me.GroupBox3.Controls.Add(Me.Label8)
-        Me.GroupBox3.Controls.Add(Me.Label7)
-        Me.GroupBox3.Controls.Add(Me.Label6)
-        Me.GroupBox3.Controls.Add(Me.txtDafiliacion)
-        Me.GroupBox3.Controls.Add(Me.Label5)
-        Me.GroupBox3.Location = New System.Drawing.Point(78, 417)
-        Me.GroupBox3.Name = "GroupBox3"
-        Me.GroupBox3.Size = New System.Drawing.Size(553, 161)
-        Me.GroupBox3.TabIndex = 2
-        Me.GroupBox3.TabStop = False
+        Me.txtApellido.Font = New System.Drawing.Font("Montserrat SemiBold", 10.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtApellido.Location = New System.Drawing.Point(354, 79)
+        Me.txtApellido.Name = "txtApellido"
+        Me.txtApellido.Size = New System.Drawing.Size(226, 29)
+        Me.txtApellido.TabIndex = 5
         '
-        'GroupBox4
+        'txtNombre
         '
-        Me.GroupBox4.Controls.Add(Me.txtSneto)
-        Me.GroupBox4.Controls.Add(Me.txtTdescuento)
-        Me.GroupBox4.Controls.Add(Me.Label10)
-        Me.GroupBox4.Controls.Add(Me.Label9)
-        Me.GroupBox4.Location = New System.Drawing.Point(209, 602)
-        Me.GroupBox4.Name = "GroupBox4"
-        Me.GroupBox4.Size = New System.Drawing.Size(327, 117)
-        Me.GroupBox4.TabIndex = 3
-        Me.GroupBox4.TabStop = False
+        Me.txtNombre.Font = New System.Drawing.Font("Montserrat SemiBold", 10.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtNombre.Location = New System.Drawing.Point(354, 39)
+        Me.txtNombre.Name = "txtNombre"
+        Me.txtNombre.Size = New System.Drawing.Size(226, 29)
+        Me.txtNombre.TabIndex = 4
         '
-        'Label1
+        'txtDni
         '
-        Me.Label1.AutoSize = True
-        Me.Label1.Font = New System.Drawing.Font("Montserrat", 10.2!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(32, 43)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(50, 27)
-        Me.Label1.TabIndex = 0
-        Me.Label1.Text = "DNI:"
-        '
-        'GroupBox2
-        '
-        Me.GroupBox2.Controls.Add(Me.rbOnp)
-        Me.GroupBox2.Controls.Add(Me.rbAfp)
-        Me.GroupBox2.Font = New System.Drawing.Font("Montserrat SemiBold", 13.8!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.GroupBox2.Location = New System.Drawing.Point(157, 275)
-        Me.GroupBox2.Name = "GroupBox2"
-        Me.GroupBox2.Size = New System.Drawing.Size(188, 136)
-        Me.GroupBox2.TabIndex = 1
-        Me.GroupBox2.TabStop = False
-        Me.GroupBox2.Text = "Afiliación"
-        '
-        'GroupBox5
-        '
-        Me.GroupBox5.Controls.Add(Me.chalimento)
-        Me.GroupBox5.Controls.Add(Me.chPrestamo)
-        Me.GroupBox5.Controls.Add(Me.chJudicial)
-        Me.GroupBox5.Font = New System.Drawing.Font("Montserrat SemiBold", 13.8!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.GroupBox5.Location = New System.Drawing.Point(391, 275)
-        Me.GroupBox5.Name = "GroupBox5"
-        Me.GroupBox5.Size = New System.Drawing.Size(188, 136)
-        Me.GroupBox5.TabIndex = 2
-        Me.GroupBox5.TabStop = False
-        Me.GroupBox5.Text = "Descuento"
-        '
-        'Label2
-        '
-        Me.Label2.AutoSize = True
-        Me.Label2.Font = New System.Drawing.Font("Montserrat", 10.2!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(250, 43)
-        Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(98, 27)
-        Me.Label2.TabIndex = 1
-        Me.Label2.Text = "Nombres:"
+        Me.txtDni.Font = New System.Drawing.Font("Montserrat SemiBold", 10.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtDni.Location = New System.Drawing.Point(17, 73)
+        Me.txtDni.Name = "txtDni"
+        Me.txtDni.Size = New System.Drawing.Size(185, 29)
+        Me.txtDni.TabIndex = 3
         '
         'Label3
         '
@@ -161,59 +112,173 @@ Partial Class FrmPago
         Me.Label3.TabIndex = 2
         Me.Label3.Text = "Apellidos:"
         '
-        'Label4
+        'Label2
         '
-        Me.Label4.AutoSize = True
-        Me.Label4.Font = New System.Drawing.Font("Montserrat", 10.2!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label4.Location = New System.Drawing.Point(73, 200)
-        Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(78, 27)
-        Me.Label4.TabIndex = 3
-        Me.Label4.Text = "Sueldo:"
+        Me.Label2.AutoSize = True
+        Me.Label2.Font = New System.Drawing.Font("Montserrat", 10.2!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.Location = New System.Drawing.Point(250, 43)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(98, 27)
+        Me.Label2.TabIndex = 1
+        Me.Label2.Text = "Nombres:"
         '
-        'txtDni
+        'Label1
         '
-        Me.txtDni.Font = New System.Drawing.Font("Montserrat SemiBold", 10.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtDni.Location = New System.Drawing.Point(17, 73)
-        Me.txtDni.Name = "txtDni"
-        Me.txtDni.Size = New System.Drawing.Size(185, 29)
-        Me.txtDni.TabIndex = 3
+        Me.Label1.AutoSize = True
+        Me.Label1.Font = New System.Drawing.Font("Montserrat", 10.2!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.Location = New System.Drawing.Point(32, 43)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(50, 27)
+        Me.Label1.TabIndex = 0
+        Me.Label1.Text = "DNI:"
         '
-        'txtNombre
+        'GroupBox3
         '
-        Me.txtNombre.Font = New System.Drawing.Font("Montserrat SemiBold", 10.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtNombre.Location = New System.Drawing.Point(354, 39)
-        Me.txtNombre.Name = "txtNombre"
-        Me.txtNombre.Size = New System.Drawing.Size(226, 29)
-        Me.txtNombre.TabIndex = 4
+        Me.GroupBox3.Controls.Add(Me.txtDalimento)
+        Me.GroupBox3.Controls.Add(Me.txtDprestamo)
+        Me.GroupBox3.Controls.Add(Me.txtDjudicial)
+        Me.GroupBox3.Controls.Add(Me.Label8)
+        Me.GroupBox3.Controls.Add(Me.Label7)
+        Me.GroupBox3.Controls.Add(Me.Label6)
+        Me.GroupBox3.Controls.Add(Me.txtDafiliacion)
+        Me.GroupBox3.Controls.Add(Me.Label5)
+        Me.GroupBox3.Location = New System.Drawing.Point(78, 348)
+        Me.GroupBox3.Name = "GroupBox3"
+        Me.GroupBox3.Size = New System.Drawing.Size(553, 135)
+        Me.GroupBox3.TabIndex = 2
+        Me.GroupBox3.TabStop = False
         '
-        'txtApellido
+        'txtDalimento
         '
-        Me.txtApellido.Font = New System.Drawing.Font("Montserrat SemiBold", 10.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtApellido.Location = New System.Drawing.Point(354, 79)
-        Me.txtApellido.Name = "txtApellido"
-        Me.txtApellido.Size = New System.Drawing.Size(226, 29)
-        Me.txtApellido.TabIndex = 5
+        Me.txtDalimento.Font = New System.Drawing.Font("Montserrat SemiBold", 10.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtDalimento.Location = New System.Drawing.Point(431, 91)
+        Me.txtDalimento.Name = "txtDalimento"
+        Me.txtDalimento.Size = New System.Drawing.Size(114, 29)
+        Me.txtDalimento.TabIndex = 12
         '
-        'txtSueldo
+        'txtDprestamo
         '
-        Me.txtSueldo.Font = New System.Drawing.Font("Montserrat SemiBold", 10.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtSueldo.Location = New System.Drawing.Point(166, 200)
-        Me.txtSueldo.Name = "txtSueldo"
-        Me.txtSueldo.Size = New System.Drawing.Size(114, 29)
-        Me.txtSueldo.TabIndex = 5
+        Me.txtDprestamo.Font = New System.Drawing.Font("Montserrat SemiBold", 10.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtDprestamo.Location = New System.Drawing.Point(431, 53)
+        Me.txtDprestamo.Name = "txtDprestamo"
+        Me.txtDprestamo.Size = New System.Drawing.Size(114, 29)
+        Me.txtDprestamo.TabIndex = 11
         '
-        'rbAfp
+        'txtDjudicial
         '
-        Me.rbAfp.AutoSize = True
-        Me.rbAfp.Font = New System.Drawing.Font("Montserrat SemiBold", 10.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.rbAfp.Location = New System.Drawing.Point(19, 46)
-        Me.rbAfp.Name = "rbAfp"
-        Me.rbAfp.Size = New System.Drawing.Size(104, 32)
-        Me.rbAfp.TabIndex = 0
-        Me.rbAfp.TabStop = True
-        Me.rbAfp.Text = "AFP 11%"
-        Me.rbAfp.UseVisualStyleBackColor = True
+        Me.txtDjudicial.Font = New System.Drawing.Font("Montserrat SemiBold", 10.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtDjudicial.Location = New System.Drawing.Point(431, 14)
+        Me.txtDjudicial.Name = "txtDjudicial"
+        Me.txtDjudicial.Size = New System.Drawing.Size(114, 29)
+        Me.txtDjudicial.TabIndex = 10
+        '
+        'Label8
+        '
+        Me.Label8.AutoSize = True
+        Me.Label8.Font = New System.Drawing.Font("Montserrat", 10.2!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label8.Location = New System.Drawing.Point(296, 95)
+        Me.Label8.Name = "Label8"
+        Me.Label8.Size = New System.Drawing.Size(121, 27)
+        Me.Label8.TabIndex = 9
+        Me.Label8.Text = "D. Alimento:"
+        '
+        'Label7
+        '
+        Me.Label7.AutoSize = True
+        Me.Label7.Font = New System.Drawing.Font("Montserrat", 10.2!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label7.Location = New System.Drawing.Point(296, 57)
+        Me.Label7.Name = "Label7"
+        Me.Label7.Size = New System.Drawing.Size(126, 27)
+        Me.Label7.TabIndex = 8
+        Me.Label7.Text = "D. Prestamo:"
+        '
+        'Label6
+        '
+        Me.Label6.AutoSize = True
+        Me.Label6.Font = New System.Drawing.Font("Montserrat", 10.2!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label6.Location = New System.Drawing.Point(296, 18)
+        Me.Label6.Name = "Label6"
+        Me.Label6.Size = New System.Drawing.Size(114, 27)
+        Me.Label6.TabIndex = 7
+        Me.Label6.Text = "D. Judicial: "
+        '
+        'txtDafiliacion
+        '
+        Me.txtDafiliacion.Font = New System.Drawing.Font("Montserrat SemiBold", 10.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtDafiliacion.Location = New System.Drawing.Point(147, 41)
+        Me.txtDafiliacion.Name = "txtDafiliacion"
+        Me.txtDafiliacion.Size = New System.Drawing.Size(114, 29)
+        Me.txtDafiliacion.TabIndex = 6
+        '
+        'Label5
+        '
+        Me.Label5.AutoSize = True
+        Me.Label5.Font = New System.Drawing.Font("Montserrat", 10.2!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label5.Location = New System.Drawing.Point(12, 41)
+        Me.Label5.Name = "Label5"
+        Me.Label5.Size = New System.Drawing.Size(129, 27)
+        Me.Label5.TabIndex = 6
+        Me.Label5.Text = "D. Afiliación: "
+        '
+        'GroupBox4
+        '
+        Me.GroupBox4.Controls.Add(Me.txtSneto)
+        Me.GroupBox4.Controls.Add(Me.txtTdescuento)
+        Me.GroupBox4.Controls.Add(Me.Label10)
+        Me.GroupBox4.Controls.Add(Me.Label9)
+        Me.GroupBox4.Location = New System.Drawing.Point(157, 515)
+        Me.GroupBox4.Name = "GroupBox4"
+        Me.GroupBox4.Size = New System.Drawing.Size(327, 117)
+        Me.GroupBox4.TabIndex = 3
+        Me.GroupBox4.TabStop = False
+        '
+        'txtSneto
+        '
+        Me.txtSneto.Font = New System.Drawing.Font("Montserrat SemiBold", 10.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtSneto.Location = New System.Drawing.Point(191, 59)
+        Me.txtSneto.Name = "txtSneto"
+        Me.txtSneto.Size = New System.Drawing.Size(114, 29)
+        Me.txtSneto.TabIndex = 15
+        '
+        'txtTdescuento
+        '
+        Me.txtTdescuento.Font = New System.Drawing.Font("Montserrat SemiBold", 10.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtTdescuento.Location = New System.Drawing.Point(191, 14)
+        Me.txtTdescuento.Name = "txtTdescuento"
+        Me.txtTdescuento.Size = New System.Drawing.Size(114, 29)
+        Me.txtTdescuento.TabIndex = 13
+        '
+        'Label10
+        '
+        Me.Label10.AutoSize = True
+        Me.Label10.Font = New System.Drawing.Font("Montserrat", 10.2!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label10.Location = New System.Drawing.Point(20, 59)
+        Me.Label10.Name = "Label10"
+        Me.Label10.Size = New System.Drawing.Size(126, 27)
+        Me.Label10.TabIndex = 14
+        Me.Label10.Text = "Sueldo Neto:"
+        '
+        'Label9
+        '
+        Me.Label9.AutoSize = True
+        Me.Label9.Font = New System.Drawing.Font("Montserrat", 10.2!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label9.Location = New System.Drawing.Point(20, 18)
+        Me.Label9.Name = "Label9"
+        Me.Label9.Size = New System.Drawing.Size(163, 27)
+        Me.Label9.TabIndex = 13
+        Me.Label9.Text = "Total Descuento:"
+        '
+        'GroupBox2
+        '
+        Me.GroupBox2.Controls.Add(Me.rbOnp)
+        Me.GroupBox2.Controls.Add(Me.rbAfp)
+        Me.GroupBox2.Font = New System.Drawing.Font("Montserrat SemiBold", 13.8!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.GroupBox2.Location = New System.Drawing.Point(78, 206)
+        Me.GroupBox2.Name = "GroupBox2"
+        Me.GroupBox2.Size = New System.Drawing.Size(188, 136)
+        Me.GroupBox2.TabIndex = 1
+        Me.GroupBox2.TabStop = False
+        Me.GroupBox2.Text = "Afiliación"
         '
         'rbOnp
         '
@@ -227,27 +292,30 @@ Partial Class FrmPago
         Me.rbOnp.Text = "ONP 15%"
         Me.rbOnp.UseVisualStyleBackColor = True
         '
-        'chJudicial
+        'rbAfp
         '
-        Me.chJudicial.AutoSize = True
-        Me.chJudicial.Font = New System.Drawing.Font("Montserrat SemiBold", 10.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.chJudicial.Location = New System.Drawing.Point(20, 35)
-        Me.chJudicial.Name = "chJudicial"
-        Me.chJudicial.Size = New System.Drawing.Size(103, 32)
-        Me.chJudicial.TabIndex = 0
-        Me.chJudicial.Text = "Judicial"
-        Me.chJudicial.UseVisualStyleBackColor = True
+        Me.rbAfp.AutoSize = True
+        Me.rbAfp.Font = New System.Drawing.Font("Montserrat SemiBold", 10.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.rbAfp.Location = New System.Drawing.Point(19, 46)
+        Me.rbAfp.Name = "rbAfp"
+        Me.rbAfp.Size = New System.Drawing.Size(104, 32)
+        Me.rbAfp.TabIndex = 0
+        Me.rbAfp.TabStop = True
+        Me.rbAfp.Text = "AFP 11%"
+        Me.rbAfp.UseVisualStyleBackColor = True
         '
-        'chPrestamo
+        'GroupBox5
         '
-        Me.chPrestamo.AutoSize = True
-        Me.chPrestamo.Font = New System.Drawing.Font("Montserrat SemiBold", 10.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.chPrestamo.Location = New System.Drawing.Point(20, 60)
-        Me.chPrestamo.Name = "chPrestamo"
-        Me.chPrestamo.Size = New System.Drawing.Size(125, 32)
-        Me.chPrestamo.TabIndex = 1
-        Me.chPrestamo.Text = "Prestamo"
-        Me.chPrestamo.UseVisualStyleBackColor = True
+        Me.GroupBox5.Controls.Add(Me.chalimento)
+        Me.GroupBox5.Controls.Add(Me.chPrestamo)
+        Me.GroupBox5.Controls.Add(Me.chJudicial)
+        Me.GroupBox5.Font = New System.Drawing.Font("Montserrat SemiBold", 13.8!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.GroupBox5.Location = New System.Drawing.Point(296, 206)
+        Me.GroupBox5.Name = "GroupBox5"
+        Me.GroupBox5.Size = New System.Drawing.Size(188, 136)
+        Me.GroupBox5.TabIndex = 2
+        Me.GroupBox5.TabStop = False
+        Me.GroupBox5.Text = "Descuento"
         '
         'chalimento
         '
@@ -260,119 +328,51 @@ Partial Class FrmPago
         Me.chalimento.Text = "Alimento"
         Me.chalimento.UseVisualStyleBackColor = True
         '
-        'Label5
+        'chPrestamo
         '
-        Me.Label5.AutoSize = True
-        Me.Label5.Font = New System.Drawing.Font("Montserrat", 10.2!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label5.Location = New System.Drawing.Point(12, 41)
-        Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(129, 27)
-        Me.Label5.TabIndex = 6
-        Me.Label5.Text = "D. Afiliación: "
+        Me.chPrestamo.AutoSize = True
+        Me.chPrestamo.Font = New System.Drawing.Font("Montserrat SemiBold", 10.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.chPrestamo.Location = New System.Drawing.Point(20, 60)
+        Me.chPrestamo.Name = "chPrestamo"
+        Me.chPrestamo.Size = New System.Drawing.Size(125, 32)
+        Me.chPrestamo.TabIndex = 1
+        Me.chPrestamo.Text = "Prestamo"
+        Me.chPrestamo.UseVisualStyleBackColor = True
         '
-        'txtDafiliacion
+        'chJudicial
         '
-        Me.txtDafiliacion.Font = New System.Drawing.Font("Montserrat SemiBold", 10.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtDafiliacion.Location = New System.Drawing.Point(147, 41)
-        Me.txtDafiliacion.Name = "txtDafiliacion"
-        Me.txtDafiliacion.Size = New System.Drawing.Size(114, 29)
-        Me.txtDafiliacion.TabIndex = 6
+        Me.chJudicial.AutoSize = True
+        Me.chJudicial.Font = New System.Drawing.Font("Montserrat SemiBold", 10.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.chJudicial.Location = New System.Drawing.Point(20, 35)
+        Me.chJudicial.Name = "chJudicial"
+        Me.chJudicial.Size = New System.Drawing.Size(103, 32)
+        Me.chJudicial.TabIndex = 0
+        Me.chJudicial.Text = "Judicial"
+        Me.chJudicial.UseVisualStyleBackColor = True
         '
-        'Label6
+        'Label4
         '
-        Me.Label6.AutoSize = True
-        Me.Label6.Font = New System.Drawing.Font("Montserrat", 10.2!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label6.Location = New System.Drawing.Point(296, 18)
-        Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(114, 27)
-        Me.Label6.TabIndex = 7
-        Me.Label6.Text = "D. Judicial: "
+        Me.Label4.AutoSize = True
+        Me.Label4.Font = New System.Drawing.Font("Montserrat", 10.2!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label4.Location = New System.Drawing.Point(73, 158)
+        Me.Label4.Name = "Label4"
+        Me.Label4.Size = New System.Drawing.Size(78, 27)
+        Me.Label4.TabIndex = 3
+        Me.Label4.Text = "Sueldo:"
         '
-        'Label7
+        'txtSueldo
         '
-        Me.Label7.AutoSize = True
-        Me.Label7.Font = New System.Drawing.Font("Montserrat", 10.2!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label7.Location = New System.Drawing.Point(296, 57)
-        Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(126, 27)
-        Me.Label7.TabIndex = 8
-        Me.Label7.Text = "D. Prestamo:"
-        '
-        'Label8
-        '
-        Me.Label8.AutoSize = True
-        Me.Label8.Font = New System.Drawing.Font("Montserrat", 10.2!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label8.Location = New System.Drawing.Point(296, 95)
-        Me.Label8.Name = "Label8"
-        Me.Label8.Size = New System.Drawing.Size(121, 27)
-        Me.Label8.TabIndex = 9
-        Me.Label8.Text = "D. Alimento:"
-        '
-        'txtDjudicial
-        '
-        Me.txtDjudicial.Font = New System.Drawing.Font("Montserrat SemiBold", 10.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtDjudicial.Location = New System.Drawing.Point(431, 14)
-        Me.txtDjudicial.Name = "txtDjudicial"
-        Me.txtDjudicial.Size = New System.Drawing.Size(114, 29)
-        Me.txtDjudicial.TabIndex = 10
-        '
-        'txtDprestamo
-        '
-        Me.txtDprestamo.Font = New System.Drawing.Font("Montserrat SemiBold", 10.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtDprestamo.Location = New System.Drawing.Point(431, 53)
-        Me.txtDprestamo.Name = "txtDprestamo"
-        Me.txtDprestamo.Size = New System.Drawing.Size(114, 29)
-        Me.txtDprestamo.TabIndex = 11
-        '
-        'txtDalimento
-        '
-        Me.txtDalimento.Font = New System.Drawing.Font("Montserrat SemiBold", 10.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtDalimento.Location = New System.Drawing.Point(431, 91)
-        Me.txtDalimento.Name = "txtDalimento"
-        Me.txtDalimento.Size = New System.Drawing.Size(114, 29)
-        Me.txtDalimento.TabIndex = 12
-        '
-        'Label9
-        '
-        Me.Label9.AutoSize = True
-        Me.Label9.Font = New System.Drawing.Font("Montserrat", 10.2!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label9.Location = New System.Drawing.Point(20, 18)
-        Me.Label9.Name = "Label9"
-        Me.Label9.Size = New System.Drawing.Size(163, 27)
-        Me.Label9.TabIndex = 13
-        Me.Label9.Text = "Total Descuento:"
-        '
-        'Label10
-        '
-        Me.Label10.AutoSize = True
-        Me.Label10.Font = New System.Drawing.Font("Montserrat", 10.2!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label10.Location = New System.Drawing.Point(20, 59)
-        Me.Label10.Name = "Label10"
-        Me.Label10.Size = New System.Drawing.Size(126, 27)
-        Me.Label10.TabIndex = 14
-        Me.Label10.Text = "Sueldo Neto:"
-        '
-        'txtTdescuento
-        '
-        Me.txtTdescuento.Font = New System.Drawing.Font("Montserrat SemiBold", 10.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtTdescuento.Location = New System.Drawing.Point(191, 14)
-        Me.txtTdescuento.Name = "txtTdescuento"
-        Me.txtTdescuento.Size = New System.Drawing.Size(114, 29)
-        Me.txtTdescuento.TabIndex = 13
-        '
-        'txtSneto
-        '
-        Me.txtSneto.Font = New System.Drawing.Font("Montserrat SemiBold", 10.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtSneto.Location = New System.Drawing.Point(191, 59)
-        Me.txtSneto.Name = "txtSneto"
-        Me.txtSneto.Size = New System.Drawing.Size(114, 29)
-        Me.txtSneto.TabIndex = 15
+        Me.txtSueldo.Font = New System.Drawing.Font("Montserrat SemiBold", 10.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtSueldo.Location = New System.Drawing.Point(166, 158)
+        Me.txtSueldo.Name = "txtSueldo"
+        Me.txtSueldo.Size = New System.Drawing.Size(114, 29)
+        Me.txtSueldo.TabIndex = 5
         '
         'btnNuevo
         '
         Me.btnNuevo.BackColor = System.Drawing.SystemColors.ActiveCaption
         Me.btnNuevo.Font = New System.Drawing.Font("Montserrat ExtraBold", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnNuevo.Location = New System.Drawing.Point(133, 735)
+        Me.btnNuevo.Location = New System.Drawing.Point(81, 648)
         Me.btnNuevo.Name = "btnNuevo"
         Me.btnNuevo.Size = New System.Drawing.Size(157, 37)
         Me.btnNuevo.TabIndex = 6
@@ -383,7 +383,7 @@ Partial Class FrmPago
         '
         Me.BtnCalcular.BackColor = System.Drawing.SystemColors.ActiveCaption
         Me.BtnCalcular.Font = New System.Drawing.Font("Montserrat ExtraBold", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.BtnCalcular.Location = New System.Drawing.Point(296, 735)
+        Me.BtnCalcular.Location = New System.Drawing.Point(244, 648)
         Me.BtnCalcular.Name = "BtnCalcular"
         Me.BtnCalcular.Size = New System.Drawing.Size(157, 37)
         Me.BtnCalcular.TabIndex = 7
@@ -394,7 +394,7 @@ Partial Class FrmPago
         '
         Me.BtnSalir.BackColor = System.Drawing.SystemColors.ActiveCaption
         Me.BtnSalir.Font = New System.Drawing.Font("Montserrat ExtraBold", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.BtnSalir.Location = New System.Drawing.Point(459, 735)
+        Me.BtnSalir.Location = New System.Drawing.Point(407, 648)
         Me.BtnSalir.Name = "BtnSalir"
         Me.BtnSalir.Size = New System.Drawing.Size(157, 37)
         Me.BtnSalir.TabIndex = 8
@@ -403,9 +403,9 @@ Partial Class FrmPago
         '
         'FrmPago
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
-        Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(748, 784)
+        Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None
+        Me.AutoScroll = True
+        Me.ClientSize = New System.Drawing.Size(705, 738)
         Me.Controls.Add(Me.BtnSalir)
         Me.Controls.Add(Me.BtnCalcular)
         Me.Controls.Add(Me.btnNuevo)
@@ -416,7 +416,9 @@ Partial Class FrmPago
         Me.Controls.Add(Me.GroupBox4)
         Me.Controls.Add(Me.GroupBox3)
         Me.Controls.Add(Me.GroupBox1)
+        Me.MaximizeBox = False
         Me.Name = "FrmPago"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent
         Me.Text = "FrmPago"
         Me.GroupBox1.ResumeLayout(False)
         Me.GroupBox1.PerformLayout()

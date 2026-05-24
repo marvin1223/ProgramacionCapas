@@ -73,7 +73,15 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Entidades\Trabajador.vb" />
+    <Compile Include="Presentacion\FrmEstructurasRepetitivas.Designer.vb">
+      <DependentUpon>FrmEstructurasRepetitivas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\FrmEstructurasRepetitivas.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Entidades\Pago.vb" />
+    <Compile Include="Entidades\ClSelect.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -90,22 +98,52 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="Presentacion\FrmMDI.Designer.vb">
+      <DependentUpon>FrmMDI.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\FrmMDI.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Presentacion\FrmPago.Designer.vb">
       <DependentUpon>FrmPago.vb</DependentUpon>
     </Compile>
     <Compile Include="Presentacion\FrmPago.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Presentacion\FrmSelect.Designer.vb">
+      <DependentUpon>FrmSelect.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\FrmSelect.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentacion\FrmTrabajador.Designer.vb">
+      <DependentUpon>FrmTrabajador.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\FrmTrabajador.vb">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Presentacion\FrmEstructurasRepetitivas.resx">
+      <DependentUpon>FrmEstructurasRepetitivas.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
     </EmbeddedResource>
+    <EmbeddedResource Include="Presentacion\FrmMDI.resx">
+      <DependentUpon>FrmMDI.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Presentacion\FrmPago.resx">
       <DependentUpon>FrmPago.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentacion\FrmSelect.resx">
+      <DependentUpon>FrmSelect.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentacion\FrmTrabajador.resx">
+      <DependentUpon>FrmTrabajador.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>

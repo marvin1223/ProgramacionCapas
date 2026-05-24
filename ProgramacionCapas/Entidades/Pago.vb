@@ -4,6 +4,18 @@
   Private dni As String
   Private sue As Double
 
+  Public Sub New(nom As String, ape As String, dni As String, sue As Double)
+    Me.nom = nom
+    Me.ape = ape
+    Me.dni = dni
+    Me.sue = sue
+  End Sub
+
+  Public Sub New()
+
+  End Sub
+
+
   Public Property Nom1 As String
     Get
       Return nom
@@ -40,16 +52,9 @@
     End Set
   End Property
 
-  Public Sub New(nom As String, ape As String, dni As String, sue As Double)
-    Me.Nom1 = nom
-    Me.Ape1 = ape
-    Me.Dni1 = dni
-    Me.Sue1 = sue
-  End Sub
 
-  Public Sub New()
 
-  End Sub
+
 
   Public Function Afp() As Double
     Return Me.Sue1 * 0.11
@@ -70,6 +75,5 @@
   Public Function Alimento() As Double
     Return Me.Sue1 * 0.08
   End Function
-
 
 End Class
