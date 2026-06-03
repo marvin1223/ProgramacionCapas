@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class FrmMDI
+Partial Class frmAppMDI
   Inherits System.Windows.Forms.Form
 
   'Form reemplaza a Dispose para limpiar la lista de componentes.
@@ -23,48 +23,28 @@ Partial Class FrmMDI
   <System.Diagnostics.DebuggerStepThrough()> _
   Private Sub InitializeComponent()
         Me.MenuStrip1 = New System.Windows.Forms.MenuStrip()
-        Me.ProyectosToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.PagoToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.EstructurasSelectivasToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.EstructurasRepetitivasToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ArchivosToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.TrabajadorToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.EstructurasRepetitivasToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.MenuStrip1.SuspendLayout()
         Me.SuspendLayout()
         '
         'MenuStrip1
         '
         Me.MenuStrip1.ImageScalingSize = New System.Drawing.Size(20, 20)
-        Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ProyectosToolStripMenuItem})
+        Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ArchivosToolStripMenuItem})
         Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
         Me.MenuStrip1.Name = "MenuStrip1"
         Me.MenuStrip1.Size = New System.Drawing.Size(800, 28)
-        Me.MenuStrip1.TabIndex = 1
+        Me.MenuStrip1.TabIndex = 0
         Me.MenuStrip1.Text = "MenuStrip1"
         '
-        'ProyectosToolStripMenuItem
+        'ArchivosToolStripMenuItem
         '
-        Me.ProyectosToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.PagoToolStripMenuItem, Me.EstructurasSelectivasToolStripMenuItem, Me.EstructurasRepetitivasToolStripMenuItem, Me.TrabajadorToolStripMenuItem})
-        Me.ProyectosToolStripMenuItem.Name = "ProyectosToolStripMenuItem"
-        Me.ProyectosToolStripMenuItem.Size = New System.Drawing.Size(87, 24)
-        Me.ProyectosToolStripMenuItem.Text = "Proyectos"
-        '
-        'PagoToolStripMenuItem
-        '
-        Me.PagoToolStripMenuItem.Name = "PagoToolStripMenuItem"
-        Me.PagoToolStripMenuItem.Size = New System.Drawing.Size(240, 26)
-        Me.PagoToolStripMenuItem.Text = "Pago"
-        '
-        'EstructurasSelectivasToolStripMenuItem
-        '
-        Me.EstructurasSelectivasToolStripMenuItem.Name = "EstructurasSelectivasToolStripMenuItem"
-        Me.EstructurasSelectivasToolStripMenuItem.Size = New System.Drawing.Size(240, 26)
-        Me.EstructurasSelectivasToolStripMenuItem.Text = "Estructuras Selectivas"
-        '
-        'EstructurasRepetitivasToolStripMenuItem
-        '
-        Me.EstructurasRepetitivasToolStripMenuItem.Name = "EstructurasRepetitivasToolStripMenuItem"
-        Me.EstructurasRepetitivasToolStripMenuItem.Size = New System.Drawing.Size(240, 26)
-        Me.EstructurasRepetitivasToolStripMenuItem.Text = "Estructuras Repetitivas"
+        Me.ArchivosToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.TrabajadorToolStripMenuItem, Me.EstructurasRepetitivasToolStripMenuItem})
+        Me.ArchivosToolStripMenuItem.Name = "ArchivosToolStripMenuItem"
+        Me.ArchivosToolStripMenuItem.Size = New System.Drawing.Size(79, 24)
+        Me.ArchivosToolStripMenuItem.Text = "Archivos"
         '
         'TrabajadorToolStripMenuItem
         '
@@ -72,7 +52,13 @@ Partial Class FrmMDI
         Me.TrabajadorToolStripMenuItem.Size = New System.Drawing.Size(240, 26)
         Me.TrabajadorToolStripMenuItem.Text = "Trabajador"
         '
-        'FrmMDI
+        'EstructurasRepetitivasToolStripMenuItem
+        '
+        Me.EstructurasRepetitivasToolStripMenuItem.Name = "EstructurasRepetitivasToolStripMenuItem"
+        Me.EstructurasRepetitivasToolStripMenuItem.Size = New System.Drawing.Size(240, 26)
+        Me.EstructurasRepetitivasToolStripMenuItem.Text = "Estructuras Repetitivas"
+        '
+        'frmAppMDI
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
@@ -80,9 +66,8 @@ Partial Class FrmMDI
         Me.Controls.Add(Me.MenuStrip1)
         Me.IsMdiContainer = True
         Me.MainMenuStrip = Me.MenuStrip1
-        Me.Name = "FrmMDI"
-        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
-        Me.Text = "FrmMDI"
+        Me.Name = "frmAppMDI"
+        Me.Text = "Sistema Padre"
         Me.WindowState = System.Windows.Forms.FormWindowState.Maximized
         Me.MenuStrip1.ResumeLayout(False)
         Me.MenuStrip1.PerformLayout()
@@ -92,9 +77,7 @@ Partial Class FrmMDI
     End Sub
 
     Friend WithEvents MenuStrip1 As MenuStrip
-    Friend WithEvents ProyectosToolStripMenuItem As ToolStripMenuItem
-    Friend WithEvents PagoToolStripMenuItem As ToolStripMenuItem
-    Friend WithEvents EstructurasSelectivasToolStripMenuItem As ToolStripMenuItem
-    Friend WithEvents EstructurasRepetitivasToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents ArchivosToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents TrabajadorToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents EstructurasRepetitivasToolStripMenuItem As ToolStripMenuItem
 End Class

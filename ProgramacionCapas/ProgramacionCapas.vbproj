@@ -73,7 +73,14 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Entidades\ClPselectiva.vb" />
     <Compile Include="Entidades\Trabajador.vb" />
+    <Compile Include="Presentacion\frmAppMDI.Designer.vb">
+      <DependentUpon>frmAppMDI.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\frmAppMDI.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Presentacion\FrmEstructurasRepetitivas.Designer.vb">
       <DependentUpon>FrmEstructurasRepetitivas.vb</DependentUpon>
     </Compile>
@@ -98,16 +105,16 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
-    <Compile Include="Presentacion\FrmMDI.Designer.vb">
-      <DependentUpon>FrmMDI.vb</DependentUpon>
-    </Compile>
-    <Compile Include="Presentacion\FrmMDI.vb">
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Include="Presentacion\FrmPago.Designer.vb">
       <DependentUpon>FrmPago.vb</DependentUpon>
     </Compile>
     <Compile Include="Presentacion\FrmPago.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentacion\FrmPSelectiva.Designer.vb">
+      <DependentUpon>FrmPSelectiva.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\FrmPSelectiva.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Presentacion\FrmSelect.Designer.vb">
@@ -124,6 +131,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Presentacion\frmAppMDI.resx">
+      <DependentUpon>frmAppMDI.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Presentacion\FrmEstructurasRepetitivas.resx">
       <DependentUpon>FrmEstructurasRepetitivas.vb</DependentUpon>
     </EmbeddedResource>
@@ -133,11 +143,11 @@
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="Presentacion\FrmMDI.resx">
-      <DependentUpon>FrmMDI.vb</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Presentacion\FrmPago.resx">
       <DependentUpon>FrmPago.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentacion\FrmPSelectiva.resx">
+      <DependentUpon>FrmPSelectiva.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Presentacion\FrmSelect.resx">
       <DependentUpon>FrmSelect.vb</DependentUpon>
